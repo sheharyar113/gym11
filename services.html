@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - FFL Gym</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container mt-4">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <i class="bi bi-lightning-fill text-orange me-1"></i> FFL
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-orange rounded-pill free-trial-btn">Free Trial</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header Section -->
+        <section class="page-header-section py-5 text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold text-white" data-aos="fade-up">Our <span class="text-orange">Fitness Services</span></h1>
+                <p class="lead text-white-50" data-aos="fade-up" data-aos-delay="100">Explore our comprehensive range of services designed to help you achieve your fitness goals.</p>
+            </div>
+        </section>
+
+        <!-- Services Overview Carousel (from index.html) -->
+        <section id="servicesOverviewSection" class="services-section py-5">
+            <div class="container">
+                <div class="row mb-4 align-items-start">
+                    <div class="col-lg-8">
+                        <p class="sub-heading">Quick Look</p>
+                        <h2 class="main-heading h1">UNLEASH YOUR POTENTIAL: <span class="highlight">PREMIUM FITNESS SERVICES</span> TAILORED FOR YOU</h2>
+                        <p class="description">
+                            At FFL Gym, we offer personalized fitness services to help you reach your goals.
+                            From one-on-one training to high-energy classes and recovery sessions, we provide
+                            everything you need to succeed in your fitness journey. Scroll down for more details on each service.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-lg-end justify-content-start mt-3 mt-lg-0 align-items-center custom-carousel-controls">
+                        <button class="carousel-control-prev-custom" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                            <span class="arrow-icon" aria-hidden="true">←</span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next-custom" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                            <span class="arrow-icon" aria-hidden="true">→</span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="servicesCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <!-- Slide 1: Cards 1-4 -->
+                        <div class="carousel-item active">
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="personal trainner.jpg" class="card-img-top" alt="Personal Training">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Personal training</h5>
+                                            <a href="#personal-training-detail" class="btn card-action-btn" aria-label="View Personal Training Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                        <div class="trainer-info-overlay">
+                                            <h4>Alex Johnson</h4>
+                                            <p>Certified Personal Trainer. Get 1-on-1 guidance.</p>
+                                            <a href="#personal-training-detail" class="btn btn-sm btn-outline-light mt-2">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="fitness classes.jpg" class="card-img-top" alt="Fitness Classes">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Fitness Classes</h5>
+                                            <a href="#fitness-classes-detail" class="btn card-action-btn" aria-label="View Fitness Classes Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                        <div class="trainer-info-overlay">
+                                            <h4>Group Energizers</h4>
+                                            <p>Zumba, HIIT, Spinning. All levels welcome!</p>
+                                             <a href="#fitness-classes-detail" class="btn btn-sm btn-outline-light mt-2">Explore Classes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="swimming training.jpg" class="card-img-top" alt="Swim Training">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Swim Training</h5>
+                                            <a href="#swim-training-detail" class="btn card-action-btn" aria-label="View Swim Training Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                         <div class="trainer-info-overlay">
+                                            <h4>Maria Phelps</h4>
+                                            <p>Competitive swimmer & coach. Stroke correction.</p>
+                                             <a href="#swim-training-detail" class="btn btn-sm btn-outline-light mt-2">Dive In</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="yoga studio shot.jpg" class="card-img-top" alt="Yoga Studio">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Yoga Studio</h5>
+                                            <a href="#yoga-studio-detail" class="btn card-action-btn" aria-label="View Yoga Studio Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                        <div class="trainer-info-overlay">
+                                            <h4>Zen Masters</h4>
+                                            <p>Vinyasa, Hatha, Ashtanga yoga for peace & flexibility.</p>
+                                             <a href="#yoga-studio-detail" class="btn btn-sm btn-outline-light mt-2">Find Your Zen</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2: Cards 5-8 -->
+                        <div class="carousel-item">
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="cross fit.jpg" class="card-img-top" alt="CrossFit">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">CrossFit</h5>
+                                            <a href="#crossfit-detail" class="btn card-action-btn" aria-label="View CrossFit Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                        <div class="trainer-info-overlay">
+                                            <h4>Iron Will Box</h4>
+                                            <p>Intense WODs for ultimate fitness. Experienced coaches.</p>
+                                            <a href="#crossfit-detail" class="btn btn-sm btn-outline-light mt-2">Join the Box</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="nutrition health.jpg" class="card-img-top" alt="Nutrition Help">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Nutrition Help</h5>
+                                            <a href="#nutrition-detail" class="btn card-action-btn" aria-label="View Nutrition Help Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                         <div class="trainer-info-overlay">
+                                            <h4>Dr. Anya Sharma</h4>
+                                            <p>Personalized diet plans & nutritional counseling.</p>
+                                             <a href="#nutrition-detail" class="btn btn-sm btn-outline-light mt-2">Consult Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="recovery zone.webp" class="card-img-top" alt="Recovery Zone">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Recovery Zone</h5>
+                                            <a href="#recovery-detail" class="btn card-action-btn" aria-label="View Recovery Zone Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                         <div class="trainer-info-overlay">
+                                            <h4>Recharge Hub</h4>
+                                            <p>Massage therapy, foam rolling, cryotherapy.</p>
+                                             <a href="#recovery-detail" class="btn btn-sm btn-outline-light mt-2">Book Recovery</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card service-card">
+                                        <img src="kids fitness.jpg" class="card-img-top" alt="Kids Fitness">
+                                        <div class="card-img-overlay-custom">
+                                            <h5 class="card-title">Kids Fitness</h5>
+                                            <a href="#kids-fitness-detail" class="btn card-action-btn" aria-label="View Kids Fitness Details">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+                                            </a>
+                                        </div>
+                                        <div class="trainer-info-overlay">
+                                            <h4>Fun Fit Crew</h4>
+                                            <p>Engaging fitness for children aged 5-12.</p>
+                                            <a href="#kids-fitness-detail" class="btn btn-sm btn-outline-light mt-2">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services Overview Carousel -->
+
+        <!-- Detailed Service Sections -->
+        <div class="detailed-services-container py-5">
+            <!-- Personal Training Detail -->
+            <section id="personal-training-detail" class="service-detail-item py-4" data-aos="fade-up">
+                <div class="container">
+                    <div class="row align-items-center g-lg-5">
+                        <div class="col-lg-6">
+                            <img src="service gym.webp" alt="Personal Training In Action" class="img-fluid rounded-image mb-4 mb-lg-0">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold text-orange mb-3">Personal Training</h2>
+                            <p class="text-white-50 lead mb-3">Achieve your specific fitness goals faster with our expert personal trainers. Whether you're looking to lose weight, build muscle, improve athletic performance, or recover from an injury, our certified trainers will create a customized workout plan tailored to your unique needs and abilities.</p>
+                            <p class="text-white-50">Experience one-on-one coaching, motivational support, and precise technique correction to maximize your results and minimize risk of injury. We focus on sustainable progress and empowering you with the knowledge to maintain a healthy lifestyle.</p>
+                            <h4 class="text-white mt-4 mb-2">Key Benefits:</h4>
+                            <ul class="list-unstyled service-benefits">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Customized Workout Plans</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> One-on-One Expert Guidance</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Goal-Oriented Training & Tracking</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Nutritional Advice & Support</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Increased Motivation & Accountability</li>
+                            </ul>
+                            <a href="contact.html?service=Personal%20Training" class="btn btn-lg btn-orange rounded-pill mt-4 px-4">Book a Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="service-divider my-5">
+
+            <!-- Fitness Classes Detail -->
+            <section id="fitness-classes-detail" class="service-detail-item py-4" data-aos="fade-up">
+                <div class="container">
+                    <div class="row align-items-center g-lg-5 flex-lg-row-reverse"> <!-- Image on the right for variety -->
+                        <div class="col-lg-6">
+                            <img src="service fitness.avif" alt="Dynamic Fitness Class" class="img-fluid rounded-image mb-4 mb-lg-0">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold text-orange mb-3">Fitness Classes</h2>
+                            <p class="text-white-50 lead mb-3">Join our high-energy group fitness classes and experience the power of community! We offer a diverse schedule including HIIT, Zumba, Spinning, Strength & Conditioning, Pilates, and more. Our classes cater to all fitness levels, from beginners to seasoned athletes.</p>
+                            <p class="text-white-50">Led by motivating instructors, our group classes are designed to be fun, challenging, and effective. Burn calories, build strength, improve endurance, and make new friends in a supportive and dynamic environment.</p>
+                             <h4 class="text-white mt-4 mb-2">Popular Classes:</h4>
+                            <ul class="list-unstyled service-benefits">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> High-Intensity Interval Training (HIIT)</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Zumba & Dance Fitness</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Indoor Cycling (Spinning)</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Strength & Conditioning Circuits</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Yoga & Pilates (See Yoga Studio for more)</li>
+                            </ul>
+                            <a href="schedule.html" class="btn btn-lg btn-orange rounded-pill mt-4 px-4">View Class Schedule</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="service-divider my-5">
+
+            <!-- Swim Training Detail -->
+            <section id="swim-training-detail" class="service-detail-item py-4" data-aos="fade-up">
+                <div class="container">
+                     <div class="row align-items-center g-lg-5">
+                        <div class="col-lg-6">
+                            <img src="service swim.avif" alt="Swim Training Session" class="img-fluid rounded-image mb-4 mb-lg-0">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold text-orange mb-3">Swim Training</h2>
+                            <p class="text-white-50 lead mb-3">Dive into our comprehensive swim training programs suitable for all ages and skill levels. Whether you're a beginner learning to swim, an adult looking to improve your strokes, or a competitive swimmer aiming for peak performance, our certified instructors are here to guide you.</p>
+                            <p class="text-white-50">Our state-of-the-art pool facilities provide the perfect environment for learning and training. We offer private lessons, group classes, and squad training, focusing on technique, endurance, and water safety.</p>
+                            <h4 class="text-white mt-4 mb-2">Programs Offered:</h4>
+                            <ul class="list-unstyled service-benefits">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Learn-to-Swim for Kids & Adults</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Stroke Correction & Refinement</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Endurance & Fitness Swimming</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Competitive Swim Squads</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Aqua Aerobics Classes</li>
+                            </ul>
+                            <a href="contact.html?service=Swim%20Training" class="btn btn-lg btn-orange rounded-pill mt-4 px-4">Inquire About Swim Lessons</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <hr class="service-divider my-5">
+
+            <!-- Yoga Studio Detail -->
+            <section id="yoga-studio-detail" class="service-detail-item py-4" data-aos="fade-up">
+                <div class="container">
+                    <div class="row align-items-center g-lg-5 flex-lg-row-reverse">
+                        <div class="col-lg-6">
+                            <img src="service yoga.avif" alt="Serene Yoga Studio" class="img-fluid rounded-image mb-4 mb-lg-0">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold text-orange mb-3">Yoga Studio</h2>
+                            <p class="text-white-50 lead mb-3">Find your balance, strength, and inner peace in our dedicated Yoga Studio. We offer a variety of yoga styles to suit all preferences and levels, from dynamic Vinyasa flows to restorative Hatha sessions and challenging Ashtanga practices.</p>
+                            <p class="text-white-50">Our experienced yoga instructors create a tranquil and welcoming space for you to explore your practice, improve flexibility, reduce stress, and enhance mindfulness. Mats and props are provided.</p>
+                            <h4 class="text-white mt-4 mb-2">Yoga Styles:</h4>
+                            <ul class="list-unstyled service-benefits">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Vinyasa Flow (All Levels)</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Hatha Yoga (Beginner Friendly)</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Ashtanga Yoga (Intermediate/Advanced)</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Restorative Yoga & Meditation</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Prenatal Yoga</li>
+                            </ul>
+                            <a href="schedule.html#yoga" class="btn btn-lg btn-orange rounded-pill mt-4 px-4">Yoga Class Schedule</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Add more detailed sections for CrossFit, Nutrition, Recovery, Kids Fitness following the same pattern -->
+            <!-- Example for one more: CrossFit -->
+            <hr class="service-divider my-5">
+            <section id="crossfit-detail" class="service-detail-item py-4" data-aos="fade-up">
+                <div class="container">
+                     <div class="row align-items-center g-lg-5">
+                        <div class="col-lg-6">
+                            <img src="service cross.webp" alt="CrossFit Workout" class="img-fluid rounded-image mb-4 mb-lg-0">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold text-orange mb-3">CrossFit</h2>
+                            <p class="text-white-50 lead mb-3">Challenge yourself with our high-intensity CrossFit program. Combining elements of weightlifting, gymnastics, and metabolic conditioning, CrossFit is designed to improve overall fitness and prepare you for any physical challenge.</p>
+                            <p class="text-white-50">Our certified CrossFit coaches lead daily WODs (Workout of the Day) in a supportive and competitive group setting. Suitable for those looking to push their limits and achieve significant strength and conditioning gains.</p>
+                            <h4 class="text-white mt-4 mb-2">What to Expect:</h4>
+                            <ul class="list-unstyled service-benefits">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Constantly Varied, Functional Movements</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Scalable Workouts for All Levels</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Expert Coaching & Technique Focus</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Strong Community Atmosphere</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Measurable Progress & Performance Tracking</li>
+                            </ul>
+                            <a href="contact.html?service=CrossFit" class="btn btn-lg btn-orange rounded-pill mt-4 px-4">Join Our CrossFit Box</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- End Detailed Service Sections -->
+
+    </main>
+
+    <footer class="footer-section pt-5 pb-4 mt-0">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <a class="navbar-brand fw-bold fs-4 mb-3 d-inline-block" href="index.html">
+                        <i class="bi bi-lightning-fill text-orange me-1"></i> FFL
+                    </a>
+                    <p class="text-white-50 mb-3">Push your limits with us. Top-tier equipment, expert trainers, and a welcoming community for your fitness journey.</p>
+                    <small class="text-white-50">Get your free trial today!</small>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-3 footer-heading">Company</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h5 class="text-white mb-3 footer-heading">Support</h5>
+                     <ul class="list-unstyled footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h5 class="text-white mb-3 footer-heading">Contact Info</h5>
+                    <ul class="list-unstyled footer-contact-info">
+                        <li><i class="bi bi-geo-alt-fill me-2 text-orange"></i> 123 Fitness St, Workout City, WC 45678</li>
+                        <li><i class="bi bi-telephone-fill me-2 text-orange"></i> (123) 456-7890</li>
+                        <li><i class="bi bi-envelope-fill me-2 text-orange"></i> info@fflgym.com</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 border-white-50 opacity-25">
+            <div class="text-center text-white-50">
+                <small>© <script>document.write(new Date().getFullYear());</script> FFL Gym. All Rights Reserved. Developed with Passion.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

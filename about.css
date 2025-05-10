@@ -1,0 +1,38 @@
+/* --- About Us Page Specific Styles --- */
+.page-header-section {
+    background: linear-gradient(rgba(30,30,30,0.7), rgba(30,30,30,0.7)), url('pics/gym-panoramic-blurry.jpg'); /* Replace with a suitable background image */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Optional: for parallax effect */
+}
+.icon-box-about {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.icon-box-about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.icon-box-about .icon-about i {
+    transition: transform 0.3s ease;
+}
+.icon-box-about:hover .icon-about i {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.team-preview-section {
+    /* Define --bg-darker-shade if not already globally defined, or use a specific color */
+    background-color: #20202a; /* Example: a slightly different dark shade */
+}
+
+.team-preview-section .btn-orange:hover { /* ensure hover styles from main buttons apply */
+    background-color: var(--brand-orange-darker);
+    border-color: var(--brand-orange-darker);
+    transform: translateY(-3px) scale(1.03); /* Added scale for more pop */
+    box-shadow: 0 8px 15px rgba(var(--brand-orange-rgb), 0.3);
+}

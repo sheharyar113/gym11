@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Pricing - FFL Gym</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container mt-4">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <i class="bi bi-lightning-fill text-orange me-1"></i> FFL
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-orange rounded-pill free-trial-btn">Free Trial</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header Section -->
+        <section class="page-header-section py-5 text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold text-white" data-aos="fade-up">Flexible <span class="text-orange">Membership Plans</span></h1>
+                <p class="lead text-white-50" data-aos="fade-up" data-aos-delay="100">Find the perfect plan to kickstart your fitness journey with FFL Gym. Transparent pricing, no hidden fees.</p>
+            </div>
+        </section>
+
+        <!-- Pricing Cards Section (from index.html) -->
+        <section id="pricingPlansSection" class="pricing-section py-5">
+            <div class="container">
+                <p class="text-orange fw-bold small text-center" data-aos="fade-up">Our Plans</p>
+                <h2 class="display-5 fw-bold text-center mb-5" data-aos="fade-up" data-aos-delay="50">
+                    CHOOSE YOUR <span class="text-orange">PERFECT PLAN</span>
+                </h2>
+                <div class="row justify-content-center gy-4">
+                    <!-- Pricing Card 1 -->
+                    <div id="basic-fit" class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pricing-card h-100">
+                            <h3 class="plan-name">Basic Fit</h3>
+                            <p class="price display-4 fw-bold text-orange">$39<span class="fs-5 text-white-50">/mo</span></p>
+                            <ul class="list-unstyled feature-list my-4">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Full Gym Access</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Standard Group Classes</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Locker Rooms & Showers</li>
+                                <li><i class="bi bi-x-circle-fill text-muted me-2"></i> Personal Training Discounts</li>
+                                <li><i class="bi bi-x-circle-fill text-muted me-2"></i> Guest Passes</li>
+                            </ul>
+                            <a href="signup.html?plan=basic" class="btn btn-outline-orange rounded-pill mt-auto">Choose Plan</a>
+                        </div>
+                    </div>
+                    <!-- Pricing Card 2 (Highlighted) -->
+                    <div id="pro-active" class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="pricing-card popular h-100">
+                            <span class="popular-badge">Most Popular</span>
+                            <h3 class="plan-name">Pro Active</h3>
+                            <p class="price display-4 fw-bold text-orange">$69<span class="fs-5 text-white-50">/mo</span></p>
+                            <ul class="list-unstyled feature-list my-4">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> All Basic Fit Features</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Premium Group Classes</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> 10% Off Personal Training</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> 2 Guest Passes/Month</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Nutrition Guide Access</li>
+                            </ul>
+                            <a href="signup.html?plan=pro" class="btn btn-orange rounded-pill mt-auto">Choose Plan</a>
+                        </div>
+                    </div>
+                    <!-- Pricing Card 3 -->
+                    <div id="elite-performance" class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="pricing-card h-100">
+                            <h3 class="plan-name">Elite Performance</h3>
+                            <p class="price display-4 fw-bold text-orange">$99<span class="fs-5 text-white-50">/mo</span></p>
+                            <ul class="list-unstyled feature-list my-4">
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> All Pro Active Features</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Unlimited Premium Classes</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> 20% Off Personal Training</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> 4 Guest Passes/Month</li>
+                                <li><i class="bi bi-check-circle-fill text-orange me-2"></i> Full Recovery Zone Access</li>
+                            </ul>
+                            <a href="signup.html?plan=elite" class="btn btn-outline-orange rounded-pill mt-auto">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pricing Cards Section -->
+
+        <!-- Compare Plans Table Section -->
+        <section id="comparePlansSection" class="compare-plans-section py-5 bg-darker-shade">
+            <div class="container">
+                <h2 class="display-5 fw-bold text-center text-white mb-5" data-aos="fade-up">Compare Our <span class="text-orange">Plans</span></h2>
+                <div class="table-responsive" data-aos="fade-up" data-aos-delay="100">
+                    <table class="table table-dark table-striped table-bordered compare-table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="feature-col">Feature</th>
+                                <th scope="col" class="text-center">Basic Fit <br><small>($39/mo)</small></th>
+                                <th scope="col" class="text-center popular-col">Pro Active <br><small>($69/mo)</small></th>
+                                <th scope="col" class="text-center">Elite Performance <br><small>($99/mo)</small></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-medium">Full Gym Access</td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Standard Group Classes</td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Premium Group Classes</td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i> (Unlimited)</td>
+                            </tr>
+                             <tr>
+                                <td class="fw-medium">Personal Training Discount</td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center">10% Off</td>
+                                <td class="text-center">20% Off</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Guest Passes / Month</td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center">2 Passes</td>
+                                <td class="text-center">4 Passes</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Nutrition Guide Access</td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Full Recovery Zone Access</td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-dash-lg text-muted fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-medium">Locker Rooms & Showers</td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-orange fs-4"></i></td>
+                            </tr>
+                             <tr>
+                                <td></td>
+                                <td class="text-center"><a href="signup.html?plan=basic" class="btn btn-sm btn-outline-orange rounded-pill">Sign Up</a></td>
+                                <td class="text-center"><a href="signup.html?plan=pro" class="btn btn-sm btn-orange rounded-pill">Sign Up</a></td>
+                                <td class="text-center"><a href="signup.html?plan=elite" class="btn btn-sm btn-outline-orange rounded-pill">Sign Up</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- End Compare Plans Table Section -->
+
+
+        <!-- FAQ Section for Pricing -->
+        <section id="pricingFaqSection" class="pricing-faq-section py-5">
+            <div class="container">
+                <h2 class="display-5 fw-bold text-center text-white mb-5" data-aos="fade-up">Membership <span class="text-orange">FAQs</span></h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion custom-accordion" id="pricingFaqAccordion">
+                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                                <h2 class="accordion-header" id="faqHeadingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
+                                        What are the contract lengths for memberships?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#pricingFaqAccordion">
+                                    <div class="accordion-body">
+                                        We offer flexible membership options! You can choose from month-to-month plans, or opt for a 6-month or 12-month contract for a discounted rate. Visit our front desk or contact us for more details on longer commitments.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="150">
+                                <h2 class="accordion-header" id="faqHeadingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                        Can I freeze or pause my membership?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#pricingFaqAccordion">
+                                    <div class="accordion-body">
+                                        Yes, we understand that life happens. You can freeze your membership for a minimum of one month and a maximum of three months per calendar year, for a nominal administrative fee. Please provide at least 14 days' notice.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                                <h2 class="accordion-header" id="faqHeadingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                        Are there any joining fees or hidden costs?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#pricingFaqAccordion">
+                                    <div class="accordion-body">
+                                        We believe in transparent pricing. The prices listed are your monthly membership fees. There might be a one-time enrollment fee for new members, which is often waived during promotional periods. Any additional services like personal training or specialized workshops are charged separately.
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="accordion-item" data-aos="fade-up" data-aos-delay="250">
+                                <h2 class="accordion-header" id="faqHeadingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                        What is included in the "Free Trial"?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#pricingFaqAccordion">
+                                    <div class="accordion-body">
+                                        Our Free Trial typically gives you access to the gym facilities and a selection of our standard group classes for a limited period (e.g., 3 days or 1 week). It's a great way to experience FFL Gym before committing. Specifics may vary based on current promotions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End FAQ Section -->
+
+        <!-- Call to Action Section -->
+        <section class="cta-section py-5 bg-darker-shade">
+            <div class="container text-center">
+                 <h2 class="display-5 fw-bold text-white mb-3" data-aos="fade-up">Ready to <span class="text-orange">Transform</span> Yourself?</h2>
+                 <p class="lead text-white-50 mb-4 mx-auto" style="max-width: 600px;" data-aos="fade-up" data-aos-delay="100">
+                     Join the FFL Gym community today and take the first step towards a healthier, stronger you.
+                     Our team is excited to welcome you!
+                 </p>
+                 <div data-aos="fade-up" data-aos-delay="200">
+                     <a href="signup.html" class="btn btn-orange btn-lg rounded-pill px-5 me-md-3 mb-3 mb-md-0">Sign Up Now</a>
+                     <a href="contact.html" class="btn btn-outline-light btn-lg rounded-pill px-5">Contact Us</a>
+                 </div>
+            </div>
+        </section>
+        <!-- End Call to Action Section -->
+
+
+    </main>
+
+    <footer class="footer-section pt-5 pb-4 mt-0">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <a class="navbar-brand fw-bold fs-4 mb-3 d-inline-block" href="index.html">
+                        <i class="bi bi-lightning-fill text-orange me-1"></i> FFL
+                    </a>
+                    <p class="text-white-50 mb-3">Push your limits with us. Top-tier equipment, expert trainers, and a welcoming community for your fitness journey.</p>
+                    <small class="text-white-50">Get your free trial today!</small>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-3 footer-heading">Company</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h5 class="text-white mb-3 footer-heading">Support</h5>
+                     <ul class="list-unstyled footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h5 class="text-white mb-3 footer-heading">Contact Info</h5>
+                    <ul class="list-unstyled footer-contact-info">
+                        <li><i class="bi bi-geo-alt-fill me-2 text-orange"></i> 123 Fitness St, Workout City, WC 45678</li>
+                        <li><i class="bi bi-telephone-fill me-2 text-orange"></i> (123) 456-7890</li>
+                        <li><i class="bi bi-envelope-fill me-2 text-orange"></i> info@fflgym.com</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 border-white-50 opacity-25">
+            <div class="text-center text-white-50">
+                <small>© <script>document.write(new Date().getFullYear());</script> FFL Gym. All Rights Reserved. Developed with Passion.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
